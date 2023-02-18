@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.cong.web.SpringBootApplication" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-01-22T14:41:13" hostname="DESKTOP-NOUQ7V6" time="0.743">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.cong.web.SpringBootApplication" time="0.743"/>
+  <system-out><![CDATA[22:41:12.691 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [SpringBootApplication]: using SpringBootContextLoader
+22:41:12.691 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.cong.web.SpringBootApplication]: no resource found for suffixes {-context.xml, Context.groovy}.
+22:41:12.691 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.cong.web.SpringBootApplication]: SpringBootApplication does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+22:41:12.752 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using ContextCustomizers for test class [SpringBootApplication]: [DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer, ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer]
+22:41:12.860 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\Desktop\web\web\build\classes\java\main\com\cong\web\SpringBootApplication.class]
+22:41:12.860 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.cong.web.SpringBootApplication for test class com.cong.web.SpringBootApplication
+22:41:12.991 [Test worker] DEBUG org.springframework.test.context.util.TestContextSpringFactoriesUtils - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+22:41:13.007 [Test worker] DEBUG org.springframework.test.context.util.TestContextSpringFactoriesUtils - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+22:41:13.007 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners for test class [SpringBootApplication]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, EventPublishingTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener, ResetMocksTestExecutionListener]
+22:41:13.007 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: class [SpringBootApplication], class annotated with @DirtiesContext [false] with mode [null]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::       (v3.0.2-SNAPSHOT)
+
+2023-01-22T22:41:13.421+08:00  INFO 13112 --- [    Test worker] com.cong.web.SpringBootApplication       : Starting SpringBootApplication using Java 17.0.2 with PID 13112 (started by asus in D:\Desktop\web\web)
+2023-01-22T22:41:13.421+08:00  INFO 13112 --- [    Test worker] com.cong.web.SpringBootApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-01-22T22:41:13.641+08:00  INFO 13112 --- [    Test worker] com.cong.web.SpringBootApplication       : Started SpringBootApplication in 0.546 seconds (process running for 2.535)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
