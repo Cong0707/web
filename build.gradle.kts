@@ -49,7 +49,7 @@ dependencies {
 
 
 	val mdtXVersion = "v140.405"
-	val mindustryVersion = "v141.1"
+	val mindustryVersion = "v141.3"
 
 	implementation("com.github.Anuken.Mindustry:core:$mindustryVersion")
 	implementation("com.github.TinyLake.MindustryX:core:$mdtXVersion")
