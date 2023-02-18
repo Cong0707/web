@@ -8,7 +8,7 @@ plugins {
 }
 
 group = "com.cong"
-version = "0.0.1-SNAPSHOT"
+version = "web"
 java.sourceCompatibility = JavaVersion.VERSION_17
 
 
