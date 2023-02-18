@@ -28,5 +28,5 @@ jobs:
         keystore_alias_password: ${{ secrets.KEYSTORE_PASSWORD_SECRET }}
         keystore_alias: frog
       run: |
-        ./gradlew pack
+        ./gradlew build
       
