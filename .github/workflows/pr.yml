@@ -19,11 +19,7 @@ jobs:
       uses: gradle/gradle-build-action@v2
     - name: Run unit tests and build JAR
       run: |
-        ls
         bash ./gradlew build
-        sudo ./gradlew build
-        apt install gradle
-        gradle build
     - name: Upload desktop JAR for testing
       uses: actions/upload-artifact@v2
       with:
